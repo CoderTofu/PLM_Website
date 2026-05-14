@@ -151,7 +151,7 @@ export default function AcademicPrograms() {
               key={i}
               onMouseEnter={() => setHovered(i)}
               onMouseLeave={() => setHovered(null)}
-              className="mx-5 my-2 bg-[#F3F4F5] border border-gray-200 rounded-lg p-6 flex flex-col gap-3 transition-shadow duration-200 cursor-pointer"
+              className="bg-[#F3F4F5] border border-gray-200 rounded-lg p-6 flex flex-col gap-3 transition-shadow duration-200 cursor-pointer"
               style={{
                 boxShadow: hovered === i
                   ? "0 4px 24px 0 rgba(26,46,74,0.10)"
