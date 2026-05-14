@@ -12,6 +12,9 @@ export const metadata = {
   title: "PLM Website",
   description:
     'Pamantasan ng Lungsod ng Maynila (PLM) is the first and only chartered and autonomous university funded by a city government. It was created by the Congress of the Philippines by virtue of Republic Act No. 4196 or "An Act Authorizing the City of Manila to Establish and Operate the University of City of Manila" on June 19, 1965.',
+  icons: {
+    icon: "/plm-icon.png",
+  },
 };
 
 export default function RootLayout({ children }) {
