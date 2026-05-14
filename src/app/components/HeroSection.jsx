@@ -47,12 +47,12 @@ export default function HeroSection() {
             <h1 className="text-white text-4xl font-bold">{title}</h1>
             <p className="text-[#D5E3FF] text-lg">{text}</p>
             <div className="space-x-4 mt-8">
-              <Link href="/" className="bg-[#FDCE61] px-3 py-2 font-bold">
+              <Link href="/" className="rounded-sm bg-[#FDCE61] px-3 py-2 font-bold">
                 Explore Programs
               </Link>
               <Link
                 href="/"
-                className="border-white border px-3 py-2 font-bold text-white"
+                className="rounded-sm border-white border px-3 py-2 font-bold text-white"
               >
                 Watch Virtual Tour
               </Link>
